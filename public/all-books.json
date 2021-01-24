@@ -1,0 +1,52 @@
+[
+  {
+    "bookID": 40130,
+    "title": "Leonardo da Vinci: Obra pictorica completa y obra grafica",
+    "authors": "Frank Zöllner-Johannes Nathan-Frank Zöllner",
+    "average_rating": 4.26,
+    "isbn": 3822817341,
+    "language_code": "spa",
+    "ratings_count": 54,
+    "price": 2103
+  },
+  {
+    "bookID": 40132,
+    "title": "Leonardo on Painting: An Anthology of Writings by Leonardo da Vinci",
+    "authors": "With a Selection of Documents Relating to his Career as an Artist",
+    "average_rating": "Leonardo da Vinci-Martin Kemp",
+    "isbn": 4.13,
+    "language_code": 9780300090956,
+    "ratings_count": 336,
+    "price": 2104
+  },
+  {
+    "bookID": 40139,
+    "title": "Gone Bamboo",
+    "authors": "Anthony Bourdain",
+    "average_rating": 3.47,
+    "isbn": 1841953679,
+    "language_code": "eng",
+    "ratings_count": 1021,
+    "price": 2105
+  },
+  {
+    "bookID": 40143,
+    "title": "The Family That Couldn't Sleep: A Medical Mystery",
+    "authors": "D.T. Max",
+    "average_rating": 3.9,
+    "isbn": "081297252X",
+    "language_code": "eng",
+    "ratings_count": 232,
+    "price": 2106
+  },
+  {
+    "bookID": 40145,
+    "title": "Dear Genius: The Letters of Ursula Nordstrom",
+    "authors": "Ursula Nordstrom-Leonard S. Marcus-Maurice Sendak",
+    "average_rating": 4.39,
+    "isbn": 64462358,
+    "language_code": "eng",
+    "ratings_count": 518,
+    "price": 2107
+  }
+]

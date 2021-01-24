@@ -11,3 +11,207 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div#columnSelector{
+  border: solid #d0d0e4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+div#columnSelector h3{
+  color: #4b4b75;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+div#columnSelector p{
+  font-size: 12px;
+}
+div#columnSelector span {
+  background-color: #aaa;
+  margin: 0 10px;
+  padding: 5px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div#columnSelector span.active{
+  background-color: #b2e8b2;
+}
+
+.app-container{
+  padding: 2rem 5%;
+  background-color: #eee;
+  margin: 2% 5%;
+  border-radius: 10px;
+}
+
+#search-container{
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.cart-container{
+  font-size: 2rem;
+  display: flex;
+  margin-left: 2rem;
+}
+.cart-container a{
+  color: #111;
+  transform: translateY(-10px);
+}
+
+.cart-container .cart-size-indicator{
+  font-size: 8px;
+  height: 20px;
+  width: 20px;
+  background-color: #00ffbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: relative;
+  left: 21px;
+  top: -39px;
+  font-weight: bold;
+}
+
+
+/* Book Container */
+.app___book-container {
+  color: #fff;
+  padding: 10px 2.5rem;
+  border-radius: 10px;
+  background: linear-gradient(190deg, #667eea, #764ba2);
+  min-height: 230px;
+  margin: 20px 10px;
+}
+.app___book-container .app___book___title{
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111;
+  text-transform: capitalize;
+}
+
+.app___book___id{
+  background-color: yellow;
+  color: #111;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 24px;
+  left: 4px;
+  transform: rotate(-45deg);
+  padding: 0 10px;
+  min-width: 75px;
+}
+
+.app___book___price{
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: coral;
+}
+.app___book___cart-btn{
+  width: 120px;
+  height: 30px;
+  padding: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.book___add-to-cart-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 30px;
+}
+button.app___book___cart-btn{
+  background: linear-gradient(45deg, #dedede, #a97e7e);
+    color: #111;
+}
+
+.book___ratings{
+  position: absolute;
+  top: 0px;
+  color: #111;
+  right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.book___ratings svg{
+  fill: #debd0c;
+}
+
+span#bookID{
+  cursor: not-allowed !important;
+}
+
+
+/* Pagination */
+ul.pagination li{
+  border: solid 1px #ddd;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+}
+li.disabled{
+  cursor: not-allowed;
+}
+li.active{
+  background-color: #ddd;
+}
+li.active a{
+  color: #4b4b75;
+}
+li.disabled a{
+  color: #777777;
+  cursor: not-allowed;
+}
+
+
+
+/* Sorting */
+.app___sort-container{
+  margin-bottom: 20px;
+}
+.column-sorting{
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.column-selector label{
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.app___sort-container .col-6.offset-6{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.column-type.form-control{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.checkout__price{
+  color: coral;
+  font-weight: bold;
+}
